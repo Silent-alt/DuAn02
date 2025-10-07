@@ -497,3 +497,134 @@ a {
   background: #1ebfc1;
   vertical-align: middle;
 }
+/* ================ countdown ================ */
+.countdown {
+  margin: 265px auto 0;
+}
+.countdown .body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 862px;
+}
+.countdown .countdown-list {
+  display: flex;
+  justify-content: space-between;
+}
+.countdown .item .stat-number {
+  color: #0d1111;
+  text-align: center;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.countdown .item .stat-label {
+  color: #767e7e;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: normal;
+}
+/* =============== testimonial ================ */
+
+.feedback {
+  margin-top: 227px;
+}
+
+.feedback .body {
+  position: relative;
+  padding: 37px 0;
+  /* background: aqua; */
+}
+
+.feedback blockquote {
+  max-width: 419px;
+  margin-top: 27px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+.feedback .desc {
+  display: flex;
+  align-items: center;
+  margin-top: 33px;
+  color: #767e7e;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.feedback .desc::before {
+  margin-right: 6px;
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 2px;
+  background: #070707;
+}
+.feedback .desc strong {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.feedback .feedback-cta {
+  margin-left: -30px;
+  display: flex;
+  margin-top: 52px;
+  display: flex;
+}
+
+.feedback .feedback-cta .cta-btn-group {
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #2ac9bf;
+}
+
+.feedback .feedback-cta .cta-btn-group:hover {
+  opacity: 0.9;
+  border: 1px solid rgba(207, 20, 195, 0.219);
+  transition: 0.5s;
+}
+.feedback .image {
+  position: absolute;
+  object-fit: cover;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+}
+.feedback .image1 {
+  left: 635px;
+  top: 0;
+  width: 92px;
+  height: 92px;
+}
+.feedback .image2 {
+  right: 0;
+  left: 1060px;
+  top: 19px;
+  width: 110px;
+  height: 110px;
+}
+.feedback .image3 {
+  top: 107px;
+  left: 764px;
+  width: 235px;
+  height: 235px;
+}
+.feedback .image4 {
+  top: 258px;
+  left: 491px;
+}
+.feedback .image5 {
+  top: 403px;
+  left: 703px;
+}
+.feedback .image6 {
+  top: 374px;
+  left: 1060px;
+}
